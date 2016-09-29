@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<HardwareConfig>
+  <!--The master settings refers the the hardware configuration for the whole system - BQIS. Generally, this portion of settings should be read only.-->
+  <MasterSetting>
+    <CameraConfig Label="Front-Camera"
+                  ID="4"
+                  FrameGrabberIndex="4"
+                  PortIndex="0"
+                  SerialPortIndex="4"
+                  CameraType="RGBNIR"
+                  CameraManufacturer="e2v"
+                  CameraModel="UC8"
+                  CameraSerialNumber="1626A8202"
+                  FrameGrabberSerialNumber="a44918d5"
+                  MinimumGrayLevel="140"
+                  MaximumGrayLevel="200"
+                  BrightRegionReferenceGrayLevel="180"
+                  DarkRegionReferenceGrayLevel="50"
+                  BrightRegionMinimumThresholdLevel="100"
+                  BrightRegionMaximumThresholdLevel="255"
+                  DarkRegionMinimumThresholdLevel="20"
+                  DarkRegionMaximumThresholdLevel="70"
+                  NumberOfPixelsToBeClippedAtLeft="40"
+                  NumberOfPixelsToBeClippedAtRight="40"
+                  FFCWidthOfRegionToDetectDarkDefects="10"
+                  FFCMaximumDeviationAllowed="0.02"
+                  IPAAppletParametersDefaultConfigFile="\\Config\\DefaultAppletConfig\\IPACameraParam0.xml"
+                  GUIAppletParametersDefaultConfigFile="\\Config\\DefaultAppletConfig\\GUICameraParam0.xml"
+                  IPAAppletParametersConfigFile="\\Config\\AppletConfig\\IPACameraParam0.xml"
+                  GUIAppletParametersConfigFile="\\Config\\AppletConfig\\GUICameraParam0.xml"
+                  EncoderInputPin="1"
+                  MIPDReferenceLowerLimit="30"
+                  MIPDReferenceUpperLimit="50"
+                  CameraHeightReferenceLowerLimit="25"
+                  CameraHeightReferenceUpperLimit="27"/>
+  </MasterSetting>
+  <!--The local setting refers to the configuration for the selected IPA server. -->
+  <!--Following shows the configuration for IPA1 for example-->
+  <LocalSetting>
+  </LocalSetting>
+</HardwareConfig>

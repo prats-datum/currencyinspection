@@ -1,0 +1,126 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CameraSetupTool.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DIODeviceDescription" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PCIE-1751,BID#0</Value>
+    </Setting>
+    <Setting Name="ImageAcquisitionInterface" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SiliconSoftware</Value>
+    </Setting>
+    <Setting Name="SerialCommunicationTimeout" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="SerCommMaximumNumberOfTrialsForGettingResponse" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="ImageAcquisitionTimeoutValue" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2000</Value>
+    </Setting>
+    <Setting Name="NumberOfChannelsInIRAndRGBImage" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">6</Value>
+    </Setting>
+    <Setting Name="NumberOfChannelsInColorImage" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="NumberOfChannelsInMonoImage" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="DelayBetweenCommandsInLoadingInitialSettings" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="ShowTimeTakenInStatusLabel" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="CheckForImproperCalibrationTarget" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="UIROIRectangleWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">500</Value>
+    </Setting>
+    <Setting Name="UIROIRectangleHeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="FocusROIRectangleWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">500</Value>
+    </Setting>
+    <Setting Name="FocusROIRectangleHeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="WBROIRectangleWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">250</Value>
+    </Setting>
+    <Setting Name="WBROIRectangleHeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="FFCROIRectangleWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">250</Value>
+    </Setting>
+    <Setting Name="FFCROIRectangleHeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="LICROIRectangleWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">250</Value>
+    </Setting>
+    <Setting Name="LICROIRectangleHeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="NoOfSamplesUsedInFocusStep" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">32</Value>
+    </Setting>
+    <Setting Name="MinimumFocusLearningRangeRequired" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="FocusPatternCheckReferenceGrayValue" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">80</Value>
+    </Setting>
+    <Setting Name="DarkFieldCorrectionMaximumGrayLevel" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">20</Value>
+    </Setting>
+    <Setting Name="MinThresholdInDeterminingGain" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">90</Value>
+    </Setting>
+    <Setting Name="MaxThresholdInDeterminingGain" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="GainStepInitialValue" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1000</Value>
+    </Setting>
+    <Setting Name="GainMaximumRange" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">7999</Value>
+    </Setting>
+    <Setting Name="MaxIterationsInSettingAutomaticGain" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">20</Value>
+    </Setting>
+    <Setting Name="WhiteBalancingLightIntensityNotOptimumMessage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Light intensity is not optimum in one or more channels. Cannot perform white balancing.</Value>
+    </Setting>
+    <Setting Name="WhiteBalancingOffsetFromRefGrayLevel" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="FPNLightIntensityNotOptimumMessage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Lens is not closed properly. Cannot perform FPN.</Value>
+    </Setting>
+    <Setting Name="PRNULightIntensityNotOptimumMessage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Light intensity is not optimum in one or more channels. Cannot perform PRNU.</Value>
+    </Setting>
+    <Setting Name="PRNUMinimumGrayLevelOffset" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="CalibDocumentThresholdMinimumLimit" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="CalibDocumentThresholdMaximumLimit" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="CalibDocumentWhiteRegionMinimumArea" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100000</Value>
+    </Setting>
+    <Setting Name="UseDualLineTriggeredApplet" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="CameraDefaultSettingsFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\Config\</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DIOManager>
+<DIOConfig>
+<DeviceDescription>PCIE-1751,BID#0</DeviceDescription>
+<DeviceID>4</DeviceID>
+<OutputConfig>
+<SelectionBitA0 Port="2" OutputPin1="5" OutputPin2 = "-1" OutputPin3 = "-1" OutputPin4 = "-1" />
+<SelectionBitA1 Port="2" OutputPin1="6" OutputPin2 = "-1" OutputPin3 = "-1" OutputPin4 = "-1" />
+<DataWriteBit Port="2" OutputPin1="7" OutputPin2 = "-1" OutputPin3 = "-1" OutputPin4 = "-1" />
+<OutputPortBit1 Port="4" OutputPin1="7" OutputPin2 = "6" OutputPin3 = "5" OutputPin4 = "4" />
+<OutputPortBit2 Port="3" OutputPin1="7" OutputPin2 = "6" OutputPin3 = "5" OutputPin4 = "4" />
+</OutputConfig>
+</DIOConfig>
+</DIOManager>
