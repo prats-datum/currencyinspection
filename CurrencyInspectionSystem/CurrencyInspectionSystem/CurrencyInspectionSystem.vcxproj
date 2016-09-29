@@ -1,0 +1,645 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A91B3B4F-98A6-4A6F-9EF2-F036D29A8DAE}</ProjectGuid>
+    <RootNamespace>CurrencyInspectionSystem</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <PreBuildEventUseInBuild>true</PreBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <PreBuildEventUseInBuild>false</PreBuildEventUseInBuild>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>"$(HALCONROOT)\include\halconcpp";"$(HALCONROOT)\include"</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>halconcpp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>"$(HALCONROOT)\lib\$(HALCONARCH)"</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>xcopy /D /Y /C ..\ThirdParty\ChartDirector\bin\chartdir60.dll $(OutDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);_DISPLOG</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(HALCONROOT)\include\halconcpp;../;$(HALCONROOT)\include;../ThirdParty/ChartDirector/include;../ThirdParty/SiSo/include;../ThirdParty/cereal-1.2.1/include;../ThirdParty/log4cplus/include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\ThirdParty\log4cplus\lib\x64\;..\ThirdParty\ChartDirector\lib\;..\ThirdParty\SiSo\lib\;$(HALCONROOT)\lib\$(HALCONARCH)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>halconcpp.lib;chartdir60.lib;log4cplusU.lib;log4cplusUS.lib;fglib5.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PreBuildEvent>
+      <Command>"C:\Program Files\TortoiseSVN\bin\SubWCRev.exe" "$(ProjectDir).." "$(ProjectDir)svn_version.h.tmpl" "$(ProjectDir)svn_version.h"</Command>
+    </PreBuildEvent>
+    <PreBuildEvent>
+      <Message>Pre-build command to generate version with SVN revision</Message>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>xcopy /D /Y /C "..\ThirdParty\ChartDirector\bin\chartdir60.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>"$(HALCONROOT)\include\halconcpp";"$(HALCONROOT)\include"</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>halconcpp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>"$(HALCONROOT)\lib\$(HALCONARCH)"</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>xcopy /D /Y /C ..\ThirdParty\ChartDirector\bin\chartdir60.dll $(OutDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>INSPECTION;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;DIOENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(HALCONROOT)\include\halconcpp;../;$(HALCONROOT)\include;../ThirdParty/ChartDirector/include;../ThirdParty/SiSo/include;../ThirdParty/cereal-1.2.1/include;../ThirdParty/log4cplus/include</AdditionalIncludeDirectories>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>halconcpp.lib;chartdir60.lib;log4cplusU.lib;log4cplusUS.lib;fglib5.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\ThirdParty\log4cplus\lib\x64\;..\ThirdParty\ChartDirector\lib\;..\ThirdParty\SiSo\lib\;$(HALCONROOT)\lib\$(HALCONARCH)</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>xcopy /D /Y /C "..\ThirdParty\ChartDirector\bin\chartdir60.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>"C:\Program Files\TortoiseSVN\bin\SubWCRev.exe" "$(ProjectDir)\.." "$(ProjectDir)\svn_version.h.tmpl" "$(ProjectDir)\svn_version.h"</Command>
+      <Message>Pre-build command to generate version with SVN revision</Message>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="2DBarGraph.h" />
+    <ClInclude Include="2DLineGraph.h" />
+    <ClInclude Include="2DPieGraph.h" />
+    <ClInclude Include="AboutInfo.h" />
+    <ClInclude Include="Advantech.h" />
+    <ClInclude Include="ApplicationLogsCollector.h" />
+    <ClInclude Include="ApplicationSettingsReader.h" />
+    <ClInclude Include="bdaqctrl.h" />
+    <ClInclude Include="BlobAnalyzerAlgo.h" />
+    <ClInclude Include="BuldGoldenDialog.h" />
+    <ClInclude Include="CameraConfigReader.h" />
+    <ClInclude Include="CameraModelGenerator.h" />
+    <ClInclude Include="CameraProcessor.h" />
+    <ClInclude Include="CameraRejectsViewer.h" />
+    <ClInclude Include="CameraResultCollator.h" />
+    <ClInclude Include="CameraResultViewer.h" />
+    <ClInclude Include="CaptureTSDialog.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTrait.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitCombo.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitDateTime.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitEdit.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitHyperLink.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitImage.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitMultilineEdit.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitText.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitVisitor.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridListCtrlEx.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridListCtrlGroups.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridRowTrait.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridRowTraitText.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridRowTraitVisitor.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridRowTraitXP.h" />
+    <ClInclude Include="CGridListCtrlEx\CHeaderCtrlExt.h" />
+    <ClInclude Include="CGridListCtrlEx\ViewConfigSection.h" />
+    <ClInclude Include="ChartDataManager.h" />
+    <ClInclude Include="ChartViewer.h" />
+    <ClInclude Include="CheckableGroupBox\CheckableGroupBox.h" />
+    <ClInclude Include="compatibility.h" />
+    <ClInclude Include="ControllableGroupBox.h" />
+    <ClInclude Include="CreateJobDialog.h" />
+    <ClInclude Include="CurrencyInspectionSystem.h" />
+    <ClInclude Include="Dialog Expander\DialogExpander.h" />
+    <ClInclude Include="DigitalIO.h" />
+    <ClInclude Include="DefectsPreviewer.h" />
+    <ClInclude Include="DigitalIOSettingsReader.h" />
+    <ClInclude Include="DocumentResultCollator.h" />
+    <ClInclude Include="EditDeleteGoldenDialog.h" />
+    <ClInclude Include="ExceptionsDef.h" />
+    <ClInclude Include="ExtendedTrainingData.h" />
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="GoldenData.h" />
+    <ClInclude Include="GoldenGenerator.h" />
+    <ClInclude Include="GoldenManager.h" />
+    <ClInclude Include="GoldenProcessor.h" />
+    <ClInclude Include="GPUProvider.h" />
+    <ClInclude Include="GPUProviderSingleton.h" />
+    <ClInclude Include="GrabFromBuffer.h" />
+    <ClInclude Include="GrabFromCamera.h" />
+    <ClInclude Include="GrabFromFile.h" />
+    <ClInclude Include="GraphObject.h" />
+    <ClInclude Include="ImagePreprocessor.h" />
+    <ClInclude Include="ImageSourceDialog.h" />
+    <ClInclude Include="ImageSourceSelectionDialog.h" />
+    <ClInclude Include="ImageSourceSettingsReader.h" />
+    <ClInclude Include="InspectionParametersConfigReader.h" />
+    <ClInclude Include="InspectionParametersSettingsDialog.h" />
+    <ClInclude Include="InspectionTask.h" />
+    <ClInclude Include="InterTaskCommunicator.h" />
+    <ClInclude Include="IPAException.h" />
+    <ClInclude Include="IPCore.h" />
+    <ClInclude Include="LayerBuildingAssistThread.h" />
+    <ClInclude Include="LayerInspectionAlgo.h" />
+    <ClInclude Include="LayerProcessingAssistThread.h" />
+    <ClInclude Include="MachineCommunicator.h" />
+    <ClInclude Include="MathParams.h" />
+    <ClInclude Include="ImageGrabber.h" />
+    <ClInclude Include="ImageWindowDialog.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="MainWindowDlg.h" />
+    <ClInclude Include="MeasurementAlgo.h" />
+    <ClInclude Include="ModelBuidingTask.h" />
+    <ClInclude Include="NewGoldenDialog.h" />
+    <ClInclude Include="Numeric Edit\NumericEdit.h" />
+    <ClInclude Include="Progressbar\cmemdc.h" />
+    <ClInclude Include="Progressbar\TextProgressCtrl.h" />
+    <ClInclude Include="Region Editor\RegionEditor.h" />
+    <ClInclude Include="RegionNameCollector.h" />
+    <ClInclude Include="RejectSheetsViewer.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ResultData.h" />
+    <ClInclude Include="ResultStatsWindow.h" />
+    <ClInclude Include="ShiftData.h" />
+    <ClInclude Include="ShiftManager.h" />
+    <ClInclude Include="ShiftReportViewer.h" />
+    <ClInclude Include="SimpleTreeCtrl.h" />
+    <ClInclude Include="SiSoImageAcquisition.h" />
+    <ClInclude Include="SiSoInterfaceProvider.h" />
+    <ClInclude Include="SpLayerInspectionAlgo.h" />
+    <ClInclude Include="StaticEx.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="svn_version.h" />
+    <ClInclude Include="SymbolEdit\SymbolEdit.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="ThreadInspectionAlgo.h" />
+    <ClInclude Include="TiepointAlgo.h" />
+    <ClInclude Include="UIThread.h" />
+    <ClInclude Include="UserLoginDialog.h" />
+    <ClInclude Include="version.h" />
+    <ClInclude Include="WaitScreenDialog.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="2DBarGraph.cpp" />
+    <ClCompile Include="2DLineGraph.cpp" />
+    <ClCompile Include="2DPieGraph.cpp" />
+    <ClCompile Include="AboutInfo.cpp" />
+    <ClCompile Include="Advantech.cpp" />
+    <ClCompile Include="ApplicationLogsCollector.cpp" />
+    <ClCompile Include="ApplicationSettingsReader.cpp" />
+    <ClCompile Include="BlobAnalyzerAlgo.cpp" />
+    <ClCompile Include="BuldGoldenDialog.cpp" />
+    <ClCompile Include="CameraConfigReader.cpp" />
+    <ClCompile Include="CameraModelGenerator.cpp" />
+    <ClCompile Include="CameraProcessor.cpp" />
+    <ClCompile Include="CameraRejectsViewer.cpp" />
+    <ClCompile Include="CameraResultCollator.cpp" />
+    <ClCompile Include="CameraResultViewer.cpp" />
+    <ClCompile Include="CaptureTSDialog.cpp" />
+    <ClCompile Include="CGridListCtrlEx\CGridColumnTraitCombo.cpp" />
+    <ClCompile Include="CGridListCtrlEx\CGridColumnTraitDateTime.cpp" />
+    <ClCompile Include="CGridListCtrlEx\CGridColumnTraitEdit.cpp" />
+    <ClCompile Include="CGridListCtrlEx\CGridColumnTraitHyperLink.cpp" />
+    <ClCompile Include="CGridListCtrlEx\CGridColumnTraitImage.cpp" />
+    <ClCompile Include="CGridListCtrlEx\CGridColumnTraitMultilineEdit.cpp" />
+    <ClCompile Include="CGridListCtrlEx\CGridColumnTraitText.cpp" />
+    <ClCompile Include="CGridListCtrlEx\CGridListCtrlEx.cpp" />
+    <ClCompile Include="CGridListCtrlEx\CGridListCtrlGroups.cpp" />
+    <ClCompile Include="CGridListCtrlEx\CGridRowTraitText.cpp" />
+    <ClCompile Include="CGridListCtrlEx\CGridRowTraitXP.cpp" />
+    <ClCompile Include="CGridListCtrlEx\CHeaderCtrlExt.cpp" />
+    <ClCompile Include="CGridListCtrlEx\ViewConfigSection.cpp" />
+    <ClCompile Include="ChartDataManager.cpp" />
+    <ClCompile Include="ChartViewer.cpp" />
+    <ClCompile Include="CheckableGroupBox\CheckableGroupBox.cpp" />
+    <ClCompile Include="ControllableGroupBox.cpp" />
+    <ClCompile Include="CreateJobDialog.cpp" />
+    <ClCompile Include="CurrencyInspectionSystem.cpp" />
+    <ClCompile Include="DefectsPreviewer.cpp" />
+    <ClCompile Include="Dialog Expander\DialogExpander.cpp" />
+    <ClCompile Include="DigitalIOSettingsReader.cpp" />
+    <ClCompile Include="DocumentResultCollator.cpp" />
+    <ClCompile Include="EditDeleteGoldenDialog.cpp" />
+    <ClCompile Include="ExtendedTrainingData.cpp" />
+    <ClCompile Include="GoldenData.cpp" />
+    <ClCompile Include="GoldenGenerator.cpp" />
+    <ClCompile Include="GoldenManager.cpp" />
+    <ClCompile Include="GoldenProcessor.cpp" />
+    <ClCompile Include="GPUProvider.cpp" />
+    <ClCompile Include="GPUProviderSingleton.cpp" />
+    <ClCompile Include="GrabFromBuffer.cpp" />
+    <ClCompile Include="GrabFromCamera.cpp" />
+    <ClCompile Include="GrabFromFile.cpp" />
+    <ClCompile Include="GraphObject.cpp" />
+    <ClCompile Include="ImageGrabber.cpp" />
+    <ClCompile Include="ImagePreprocessor.cpp" />
+    <ClCompile Include="ImageSourceDialog.cpp" />
+    <ClCompile Include="ImageSourceSelectionDialog.cpp" />
+    <ClCompile Include="ImageSourceSettingsReader.cpp" />
+    <ClCompile Include="ImageWindowDialog.cpp" />
+    <ClCompile Include="InspectionParametersConfigReader.cpp" />
+    <ClCompile Include="InspectionParametersSettingsDialog.cpp" />
+    <ClCompile Include="InspectionTask.cpp" />
+    <ClCompile Include="InterTaskCommunicator.cpp" />
+    <ClCompile Include="IPAException.cpp" />
+    <ClCompile Include="IPCore.cpp" />
+    <ClCompile Include="LayerBuildingAssistThread.cpp" />
+    <ClCompile Include="LayerInspectionAlgo.cpp" />
+    <ClCompile Include="LayerProcessingAssistThread.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="MachineCommunicator.cpp" />
+    <ClCompile Include="MainWindowDlg.cpp" />
+    <ClCompile Include="MeasurementAlgo.cpp" />
+    <ClCompile Include="ModelBuidingTask.cpp" />
+    <ClCompile Include="NewGoldenDialog.cpp" />
+    <ClCompile Include="Numeric Edit\NumericEdit.cpp" />
+    <ClCompile Include="Progressbar\TextProgressCtrl.cpp" />
+    <ClCompile Include="Region Editor\RegionEditor.cpp" />
+    <ClCompile Include="RegionNameCollector.cpp" />
+    <ClCompile Include="RejectSheetsViewer.cpp" />
+    <ClCompile Include="ResultData.cpp" />
+    <ClCompile Include="ResultStatsWindow.cpp" />
+    <ClCompile Include="ShiftManager.cpp" />
+    <ClCompile Include="ShiftReportViewer.cpp" />
+    <ClCompile Include="SimpleTreeCtrl.cpp" />
+    <ClCompile Include="SiSoImageAcquisition.cpp" />
+    <ClCompile Include="SiSoInterfaceProvider.cpp" />
+    <ClCompile Include="SpLayerInspectionAlgo.cpp" />
+    <ClCompile Include="StaticEx.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SymbolEdit\SymbolEdit.cpp" />
+    <ClCompile Include="ThreadInspectionAlgo.cpp" />
+    <ClCompile Include="TiepointAlgo.cpp" />
+    <ClCompile Include="UIThread.cpp" />
+    <ClCompile Include="UserLoginDialog.cpp" />
+    <ClCompile Include="WaitScreenDialog.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CurrencyInspectionSystem.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Configuration Files\Application Settings.ini" />
+    <None Include="Configuration Files\Camera Config.ini" />
+    <None Include="Configuration Files\DigitalIOSettings.ini" />
+    <None Include="Configuration Files\Image Source Settings.ini" />
+    <None Include="Configuration Files\Inspection Parameters\InspectionParameterConfig.ini" />
+    <None Include="Configuration Files\Inspection Parameters\Level1_Gain.tup" />
+    <None Include="Configuration Files\Inspection Parameters\Level1_Limit.tup" />
+    <None Include="Configuration Files\Inspection Parameters\Level1_Tolerance.tup" />
+    <None Include="Configuration Files\Inspection Parameters\Level2_Gain.tup" />
+    <None Include="Configuration Files\Inspection Parameters\Level2_Limit.tup" />
+    <None Include="Configuration Files\Inspection Parameters\Level2_Tolerance.tup" />
+    <None Include="Configuration Files\Inspection Parameters\Level3_Gain.tup" />
+    <None Include="Configuration Files\Inspection Parameters\Level3_Limit.tup" />
+    <None Include="Configuration Files\Inspection Parameters\Level3_Tolerance.tup" />
+    <None Include="Configuration Files\Inspection Parameters\Level4_Gain.tup" />
+    <None Include="Configuration Files\Inspection Parameters\Level4_Limit.tup" />
+    <None Include="Configuration Files\Inspection Parameters\Level4_Tolerance.tup" />
+    <None Include="Configuration Files\Inspection Parameters\Level5_Gain.tup" />
+    <None Include="Configuration Files\Inspection Parameters\Level5_Limit.tup" />
+    <None Include="Configuration Files\Inspection Parameters\Level5_Tolerance.tup" />
+    <None Include="Configuration Files\Inspection Parameters\Level6_Gain.tup" />
+    <None Include="Configuration Files\Inspection Parameters\Level6_Limit.tup" />
+    <None Include="Configuration Files\Inspection Parameters\Level6_Tolerance.tup" />
+    <None Include="Configuration Files\Inspection Parameters\Level7_Gain.tup" />
+    <None Include="Configuration Files\Inspection Parameters\Level7_Limit.tup" />
+    <None Include="Configuration Files\Inspection Parameters\Level7_Tolerance.tup" />
+    <None Include="Configuration Files\Log.config" />
+    <None Include="res\CurrencyInspectionSystem.rc2" />
+    <None Include="svn_version.h.tmpl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\TEMP1\1457440712_Info_light.ico" />
+    <Image Include="C:\Users\Admin\Desktop\New folder\Oxygen-Icons.org-Oxygen-Actions-document-close.ico" />
+    <Image Include="C:\Users\Admin\Desktop\New folder\Oxygen-Icons.org-Oxygen-Actions-document-edit.ico" />
+    <Image Include="C:\Users\Admin\Desktop\New folder\Oxygen-Icons.org-Oxygen-Actions-document-new.ico" />
+    <Image Include="C:\Users\Admin\Desktop\temp\blank-document.png" />
+    <Image Include="C:\Users\Admin\Desktop\temp\delete-file-interface-symbol.png" />
+    <Image Include="C:\Users\Admin\Desktop\temp\enter.png" />
+    <Image Include="C:\Users\Admin\Desktop\temp\exit(1).png" />
+    <Image Include="C:\Users\Admin\Desktop\temp\image.png" />
+    <Image Include="C:\Users\Admin\Desktop\temp\log-out.png" />
+    <Image Include="C:\Users\Admin\Desktop\temp\new-file.png" />
+    <Image Include="C:\Users\Admin\Desktop\temp\notepad.png" />
+    <Image Include="C:\Users\Admin\Desktop\temp\parameters.png" />
+    <Image Include="C:\Users\Admin\Desktop\temp\play.png" />
+    <Image Include="C:\Users\Admin\Desktop\temp\stop.png" />
+    <Image Include="C:\Users\Admin\Desktop\temp\video-camera.png" />
+    <Image Include="C:\Users\Admin\Downloads\One_Star.png" />
+    <Image Include="ICON_Previous.ico" />
+    <Image Include="Komori.png" />
+    <Image Include="LucidLogo.bmp" />
+    <Image Include="res\1.User name.ico" />
+    <Image Include="res\1457440712_Info.ico" />
+    <Image Include="res\1457440739_exit.ico" />
+    <Image Include="res\1457440743_Login Manager.ico" />
+    <Image Include="res\1457440799_Previous.ico" />
+    <Image Include="res\1457440809_Next.ico" />
+    <Image Include="res\1457443074_Check.ico" />
+    <Image Include="res\1457443080_Delete.ico" />
+    <Image Include="res\1457532124_add.ico" />
+    <Image Include="res\1457532148_delete.ico" />
+    <Image Include="res\1457532356_delete.ico" />
+    <Image Include="res\1457532364_add.ico" />
+    <Image Include="res\1457534064_add.bmp" />
+    <Image Include="res\1457534064_add.png" />
+    <Image Include="res\1457534071_delete.bmp" />
+    <Image Include="res\1457534071_delete.png" />
+    <Image Include="res\1464808887_circle_green.ico" />
+    <Image Include="res\1464808893_circle_red.ico" />
+    <Image Include="res\1464884640_Next.ico" />
+    <Image Include="res\1464885251_right_16.ico" />
+    <Image Include="res\2.Password.ico" />
+    <Image Include="res\32inidanicon.png.ico" />
+    <Image Include="res\A.bmp" />
+    <Image Include="res\Add TS.ico" />
+    <Image Include="res\Add_All_Defects.ico" />
+    <Image Include="res\Add_Selected_Defect(2).ico" />
+    <Image Include="res\Add_Selected_Defect(3).ico" />
+    <Image Include="res\Add_Selected_Defect(4).ico" />
+    <Image Include="res\Add_Selected_Defect(5).ico" />
+    <Image Include="res\Add_Selected_Defect.ico" />
+    <Image Include="res\anchor-32.bmp" />
+    <Image Include="res\Application Icon 2.ico" />
+    <Image Include="res\Audit Log.png" />
+    <Image Include="res\B.bmp" />
+    <Image Include="res\bitmap5.bmp" />
+    <Image Include="res\bitmap7.bmp" />
+    <Image Include="res\Blob Parameters Group 1.ico" />
+    <Image Include="res\Blob Parameters Group 2.ico" />
+    <Image Include="res\Blob Parameters Group 3.ico" />
+    <Image Include="res\Blue Rep Region.bmp" />
+    <Image Include="res\Blue square.bmp" />
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\bmp00002.bmp" />
+    <Image Include="res\Brush.bmp" />
+    <Image Include="res\Calibration.png" />
+    <Image Include="res\chrome_gold.ico" />
+    <Image Include="res\Claer.ico" />
+    <Image Include="res\Clear List.ico" />
+    <Image Include="res\ColorMap.bmp" />
+    <Image Include="res\CurrencyInspectionSystem.ico" />
+    <Image Include="res\Delete Golden.png" />
+    <Image Include="res\delete layer.ico" />
+    <Image Include="res\Delete Reg.bmp" />
+    <Image Include="res\Delete Region Button.bmp" />
+    <Image Include="res\Edge.bmp" />
+    <Image Include="res\Edit Golden.png" />
+    <Image Include="res\End Shift.png" />
+    <Image Include="res\Eracer.bmp" />
+    <Image Include="res\Free Draw.bmp" />
+    <Image Include="res\Gray square.bmp" />
+    <Image Include="res\Green Circle.bmp" />
+    <Image Include="res\Green circle.ico" />
+    <Image Include="res\Green Rep Region.bmp" />
+    <Image Include="res\Green square 2.bmp" />
+    <Image Include="res\Green square.bmp" />
+    <Image Include="res\Green square.ico" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\icon2.ico" />
+    <Image Include="res\icon6.ico" />
+    <Image Include="res\Image Source.png" />
+    <Image Include="res\indian icon copy.png" />
+    <Image Include="res\Intensity.bmp" />
+    <Image Include="res\Master_Trail4.ico" />
+    <Image Include="res\Master_TS.ico" />
+    <Image Include="res\Measurement .ico" />
+    <Image Include="res\New Golden.png" />
+    <Image Include="res\new icon design copy.png.ico" />
+    <Image Include="res\Offline.png" />
+    <Image Include="res\One-Star.bmp" />
+    <Image Include="res\One_Star.ico" />
+    <Image Include="res\Online.png" />
+    <Image Include="res\Parameters.png" />
+    <Image Include="res\Partially Trained.bmp" />
+    <Image Include="res\Password.ico" />
+    <Image Include="res\plus.png.ico" />
+    <Image Include="res\Preview.ico" />
+    <Image Include="res\Preview_Extension.ico" />
+    <Image Include="res\Printer Icon.ico" />
+    <Image Include="res\printer.ico" />
+    <Image Include="res\Rectangle.bmp" />
+    <Image Include="res\Red Circle.bmp" />
+    <Image Include="res\Red circle.ico" />
+    <Image Include="res\Red Rep Region - Copy.bmp" />
+    <Image Include="res\Red square 2.bmp" />
+    <Image Include="res\Red square.bmp" />
+    <Image Include="res\Red square.ico" />
+    <Image Include="res\Remove TS.ico" />
+    <Image Include="res\Remove_Selected_Defect.ico" />
+    <Image Include="res\Remove_Trail4.ico" />
+    <Image Include="res\Remove_TS.ico" />
+    <Image Include="res\Rep_Ins_Green.ico" />
+    <Image Include="res\Rep_Mask_Red.ico" />
+    <Image Include="res\Rep_Statistics_Yellow.ico" />
+    <Image Include="res\RIV.png" />
+    <Image Include="res\Save_Trail4.ico" />
+    <Image Include="res\SelectMaster.ico" />
+    <Image Include="res\Sheet_Anchor.ico" />
+    <Image Include="res\Sheet_Mask.ico" />
+    <Image Include="res\Sheet_Reg.ico" />
+    <Image Include="res\Sheet_Region.ico" />
+    <Image Include="res\Shift Reports.png" />
+    <Image Include="res\Start Capturing TS.ico" />
+    <Image Include="res\Start Shift.png" />
+    <Image Include="res\Statistics_Reg.ico" />
+    <Image Include="res\Stop Capturing TS.ico" />
+    <Image Include="res\Test.bmp" />
+    <Image Include="res\Thread.ico" />
+    <Image Include="res\Three-Star.bmp" />
+    <Image Include="res\Three.ico" />
+    <Image Include="res\Three_Star.ico" />
+    <Image Include="res\Title.bmp" />
+    <Image Include="res\Tool Bar - Delete Golden.png" />
+    <Image Include="res\Tool Bar - Edit Golden.png" />
+    <Image Include="res\Tool Bar - New Golden - Copy.png" />
+    <Image Include="res\toolbar1.bmp" />
+    <Image Include="res\toolbar2.bmp" />
+    <Image Include="res\toolbar3.bmp" />
+    <Image Include="res\Trained.bmp" />
+    <Image Include="res\Training_Set.ico" />
+    <Image Include="res\Two-Star.bmp" />
+    <Image Include="res\Two_Star.ico" />
+    <Image Include="res\Uni_Ins_Green.ico" />
+    <Image Include="res\Uni_Mask_Red.ico" />
+    <Image Include="res\Untrained.bmp" />
+    <Image Include="res\Update List.ico" />
+    <Image Include="res\Up_Anchor.ico" />
+    <Image Include="res\Up_Mask.ico" />
+    <Image Include="res\Up_Reg.ico" />
+    <Image Include="res\Up_Region.ico" />
+    <Image Include="res\Yellow Circle.bmp" />
+    <Image Include="res\Yellow circle.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="CurrencyInspectionSystem.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

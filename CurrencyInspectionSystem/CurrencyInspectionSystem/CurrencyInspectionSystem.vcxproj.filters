@@ -1,0 +1,1222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Custom Controls">
+      <UniqueIdentifier>{4f97e3ba-d6e6-4b27-8eba-67280b7795fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Controls\CheckableGroupBox">
+      <UniqueIdentifier>{5e753684-57eb-482c-b2d7-6a7f6a29204d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Controls\CGridListCtrlEx">
+      <UniqueIdentifier>{be9da024-3d5f-4142-a162-d6c2e415c65a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Controls\CGridListCtrlEx\Header Files">
+      <UniqueIdentifier>{4a77bb3d-8718-4172-9139-204b9b03a064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Controls\CGridListCtrlEx\Source Files">
+      <UniqueIdentifier>{34250855-b456-4369-b7c0-92e0843dd1ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Controls\ControllableGroupBox">
+      <UniqueIdentifier>{4a56fd28-7e9d-4291-8e4b-3d3d715518d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialogs">
+      <UniqueIdentifier>{3110427c-27e1-4148-aaf1-f4593f1527fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inspection Codes">
+      <UniqueIdentifier>{93826c34-df30-46b8-a842-89bac23e5d67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logger">
+      <UniqueIdentifier>{629716fd-af60-453f-a9d6-b4f55f56e591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image Acquistion">
+      <UniqueIdentifier>{43d9788d-b4a3-41ce-951b-bf7ecb268edd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Controls\StaticEx">
+      <UniqueIdentifier>{6ebf2e5f-7232-4d59-a091-583ab6e5e526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Controls\Graphs&amp;Charts">
+      <UniqueIdentifier>{e166d939-dd13-4a39-946b-eb867d7772f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inspection Codes\Inspection Tasks">
+      <UniqueIdentifier>{204c8477-0b06-428d-84cf-9e5476fda466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configuration Files">
+      <UniqueIdentifier>{41685f30-9a1a-4029-aa8b-bd02947b94cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configuration Reader">
+      <UniqueIdentifier>{44be6602-5ab6-4887-b0e7-7495355fd905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Region Editor">
+      <UniqueIdentifier>{bd848a60-9338-44ca-b7e1-7b7f9be4b486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResultCollation&amp;Display">
+      <UniqueIdentifier>{a4f2a8ec-c722-4345-98dd-a3a94961da0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Controls\TextProgressBar">
+      <UniqueIdentifier>{703db3e2-a01b-45b2-9228-8a6238122911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inspection Codes\Model Build Codes">
+      <UniqueIdentifier>{837c6bf4-f318-4076-a0e9-30f5181eb1b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inspection Codes\Model Inspection Codes">
+      <UniqueIdentifier>{81926dac-a66a-4696-8e90-66b86c078fb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configuration Files\Inspection Parameters">
+      <UniqueIdentifier>{acf431ab-8df6-480c-bb4a-30e9c4a4e206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Controls\Dialog Expander">
+      <UniqueIdentifier>{98900561-65df-4603-b5a0-8f9defabefc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Machine Interface">
+      <UniqueIdentifier>{b605f3ce-873d-48c8-b3ed-0d2bb595d1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Controls\Numeric Edit">
+      <UniqueIdentifier>{82dbbd59-8fe4-49d2-9cb2-0dcc5e727e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Controls\Simple Tree Ctrl">
+      <UniqueIdentifier>{1181f735-0b4d-4f3f-8b83-c45e1267bce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Controls\Symbol Edit">
+      <UniqueIdentifier>{240dfb47-5665-47fb-b04a-5dfc8b547313}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTrait.h">
+      <Filter>Custom Controls\CGridListCtrlEx\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitCombo.h">
+      <Filter>Custom Controls\CGridListCtrlEx\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitDateTime.h">
+      <Filter>Custom Controls\CGridListCtrlEx\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitEdit.h">
+      <Filter>Custom Controls\CGridListCtrlEx\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitHyperLink.h">
+      <Filter>Custom Controls\CGridListCtrlEx\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitImage.h">
+      <Filter>Custom Controls\CGridListCtrlEx\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitMultilineEdit.h">
+      <Filter>Custom Controls\CGridListCtrlEx\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitText.h">
+      <Filter>Custom Controls\CGridListCtrlEx\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitVisitor.h">
+      <Filter>Custom Controls\CGridListCtrlEx\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridListCtrlEx.h">
+      <Filter>Custom Controls\CGridListCtrlEx\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridListCtrlGroups.h">
+      <Filter>Custom Controls\CGridListCtrlEx\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridRowTrait.h">
+      <Filter>Custom Controls\CGridListCtrlEx\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridRowTraitText.h">
+      <Filter>Custom Controls\CGridListCtrlEx\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridRowTraitVisitor.h">
+      <Filter>Custom Controls\CGridListCtrlEx\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridRowTraitXP.h">
+      <Filter>Custom Controls\CGridListCtrlEx\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\ViewConfigSection.h">
+      <Filter>Custom Controls\CGridListCtrlEx\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckableGroupBox\CheckableGroupBox.h">
+      <Filter>Custom Controls\CheckableGroupBox</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllableGroupBox.h">
+      <Filter>Custom Controls\ControllableGroupBox</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindowDlg.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGoldenDialog.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Inspection Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldenData.h">
+      <Filter>Inspection Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageGrabber.h">
+      <Filter>Image Acquistion</Filter>
+    </ClInclude>
+    <ClInclude Include="CaptureTSDialog.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GrabFromFile.h">
+      <Filter>Image Acquistion</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageWindowDialog.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RegionNameCollector.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="EditDeleteGoldenDialog.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateJobDialog.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticEx.h">
+      <Filter>Custom Controls\StaticEx</Filter>
+    </ClInclude>
+    <ClInclude Include="2DLineGraph.h">
+      <Filter>Custom Controls\Graphs&amp;Charts</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphObject.h">
+      <Filter>Custom Controls\Graphs&amp;Charts</Filter>
+    </ClInclude>
+    <ClInclude Include="2DBarGraph.h">
+      <Filter>Custom Controls\Graphs&amp;Charts</Filter>
+    </ClInclude>
+    <ClInclude Include="2DPieGraph.h">
+      <Filter>Custom Controls\Graphs&amp;Charts</Filter>
+    </ClInclude>
+    <ClInclude Include="MathParams.h">
+      <Filter>Custom Controls\Graphs&amp;Charts</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraResultViewer.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionsDef.h">
+      <Filter>Inspection Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="IPAException.h">
+      <Filter>Inspection Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="BlobAnalyzerAlgo.h">
+      <Filter>Inspection Codes\Inspection Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerInspectionAlgo.h">
+      <Filter>Inspection Codes\Inspection Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="TiepointAlgo.h">
+      <Filter>Inspection Codes\Inspection Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Region Editor\RegionEditor.h">
+      <Filter>Region Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrencyInspectionSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InterTaskCommunicator.h">
+      <Filter>Inspection Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadInspectionAlgo.h">
+      <Filter>Inspection Codes\Inspection Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="svn_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutInfo.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartViewer.h">
+      <Filter>ResultCollation&amp;Display</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraResultCollator.h">
+      <Filter>ResultCollation&amp;Display</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultData.h">
+      <Filter>ResultCollation&amp;Display</Filter>
+    </ClInclude>
+    <ClInclude Include="Progressbar\TextProgressCtrl.h">
+      <Filter>Custom Controls\TextProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldenGenerator.h">
+      <Filter>Inspection Codes\Model Build Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraModelGenerator.h">
+      <Filter>Inspection Codes\Model Build Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelBuidingTask.h">
+      <Filter>Inspection Codes\Model Build Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="BuldGoldenDialog.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GrabFromBuffer.h">
+      <Filter>Image Acquistion</Filter>
+    </ClInclude>
+    <ClInclude Include="Progressbar\cmemdc.h">
+      <Filter>Custom Controls\TextProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraProcessor.h">
+      <Filter>Inspection Codes\Model Inspection Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="InspectionTask.h">
+      <Filter>Inspection Codes\Model Inspection Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldenProcessor.h">
+      <Filter>Inspection Codes\Model Inspection Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="InspectionParametersSettingsDialog.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="SpLayerInspectionAlgo.h">
+      <Filter>Inspection Codes\Inspection Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldenManager.h">
+      <Filter>Inspection Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationSettingsReader.h">
+      <Filter>Configuration Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="GPUProvider.h">
+      <Filter>Inspection Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="InspectionParametersConfigReader.h">
+      <Filter>Configuration Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="MeasurementAlgo.h">
+      <Filter>Inspection Codes\Inspection Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog Expander\DialogExpander.h">
+      <Filter>Custom Controls\Dialog Expander</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageSourceDialog.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageSourceSelectionDialog.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="UserLoginDialog.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitScreenDialog.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CHeaderCtrlExt.h">
+      <Filter>Custom Controls\CGridListCtrlEx\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraRejectsViewer.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="DefectsPreviewer.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultStatsWindow.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RejectSheetsViewer.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageSourceSettingsReader.h">
+      <Filter>Configuration Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="Advantech.h">
+      <Filter>Machine Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="bdaqctrl.h">
+      <Filter>Machine Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineCommunicator.h">
+      <Filter>Machine Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartDataManager.h">
+      <Filter>ResultCollation&amp;Display</Filter>
+    </ClInclude>
+    <ClInclude Include="DocumentResultCollator.h">
+      <Filter>ResultCollation&amp;Display</Filter>
+    </ClInclude>
+    <ClInclude Include="UIThread.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitalIO.h">
+      <Filter>Machine Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="compatibility.h">
+      <Filter>Machine Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendedTrainingData.h">
+      <Filter>Inspection Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="Numeric Edit\NumericEdit.h">
+      <Filter>Custom Controls\Numeric Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleTreeCtrl.h">
+      <Filter>Custom Controls\Simple Tree Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolEdit\SymbolEdit.h">
+      <Filter>Custom Controls\Symbol Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="GrabFromCamera.h">
+      <Filter>Image Acquistion</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraConfigReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SiSoImageAcquisition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImagePreprocessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GPUProviderSingleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitalIOSettingsReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerBuildingAssistThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerProcessingAssistThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGridListCtrlEx\CGridColumnTraitCombo.cpp">
+      <Filter>Custom Controls\CGridListCtrlEx\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGridListCtrlEx\CGridColumnTraitDateTime.cpp">
+      <Filter>Custom Controls\CGridListCtrlEx\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGridListCtrlEx\CGridColumnTraitEdit.cpp">
+      <Filter>Custom Controls\CGridListCtrlEx\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGridListCtrlEx\CGridColumnTraitHyperLink.cpp">
+      <Filter>Custom Controls\CGridListCtrlEx\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGridListCtrlEx\CGridColumnTraitImage.cpp">
+      <Filter>Custom Controls\CGridListCtrlEx\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGridListCtrlEx\CGridColumnTraitMultilineEdit.cpp">
+      <Filter>Custom Controls\CGridListCtrlEx\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGridListCtrlEx\CGridColumnTraitText.cpp">
+      <Filter>Custom Controls\CGridListCtrlEx\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGridListCtrlEx\CGridListCtrlEx.cpp">
+      <Filter>Custom Controls\CGridListCtrlEx\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGridListCtrlEx\CGridListCtrlGroups.cpp">
+      <Filter>Custom Controls\CGridListCtrlEx\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGridListCtrlEx\CGridRowTraitText.cpp">
+      <Filter>Custom Controls\CGridListCtrlEx\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGridListCtrlEx\CGridRowTraitXP.cpp">
+      <Filter>Custom Controls\CGridListCtrlEx\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGridListCtrlEx\ViewConfigSection.cpp">
+      <Filter>Custom Controls\CGridListCtrlEx\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckableGroupBox\CheckableGroupBox.cpp">
+      <Filter>Custom Controls\CheckableGroupBox</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllableGroupBox.cpp">
+      <Filter>Custom Controls\ControllableGroupBox</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindowDlg.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="NewGoldenDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldenData.cpp">
+      <Filter>Inspection Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageGrabber.cpp">
+      <Filter>Image Acquistion</Filter>
+    </ClCompile>
+    <ClCompile Include="CaptureTSDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GrabFromFile.cpp">
+      <Filter>Image Acquistion</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageWindowDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RegionNameCollector.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="EditDeleteGoldenDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateJobDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticEx.cpp">
+      <Filter>Custom Controls\StaticEx</Filter>
+    </ClCompile>
+    <ClCompile Include="2DLineGraph.cpp">
+      <Filter>Custom Controls\Graphs&amp;Charts</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphObject.cpp">
+      <Filter>Custom Controls\Graphs&amp;Charts</Filter>
+    </ClCompile>
+    <ClCompile Include="2DBarGraph.cpp">
+      <Filter>Custom Controls\Graphs&amp;Charts</Filter>
+    </ClCompile>
+    <ClCompile Include="2DPieGraph.cpp">
+      <Filter>Custom Controls\Graphs&amp;Charts</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraResultViewer.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="IPAException.cpp">
+      <Filter>Inspection Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="BlobAnalyzerAlgo.cpp">
+      <Filter>Inspection Codes\Inspection Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="TiepointAlgo.cpp">
+      <Filter>Inspection Codes\Inspection Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Region Editor\RegionEditor.cpp">
+      <Filter>Region Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrencyInspectionSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InterTaskCommunicator.cpp">
+      <Filter>Inspection Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadInspectionAlgo.cpp">
+      <Filter>Inspection Codes\Inspection Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutInfo.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartViewer.cpp">
+      <Filter>ResultCollation&amp;Display</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraResultCollator.cpp">
+      <Filter>ResultCollation&amp;Display</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultData.cpp">
+      <Filter>ResultCollation&amp;Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Progressbar\TextProgressCtrl.cpp">
+      <Filter>Custom Controls\TextProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldenGenerator.cpp">
+      <Filter>Inspection Codes\Model Build Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraModelGenerator.cpp">
+      <Filter>Inspection Codes\Model Build Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelBuidingTask.cpp">
+      <Filter>Inspection Codes\Model Build Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="BuldGoldenDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GrabFromBuffer.cpp">
+      <Filter>Image Acquistion</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraProcessor.cpp">
+      <Filter>Inspection Codes\Model Inspection Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="InspectionTask.cpp">
+      <Filter>Inspection Codes\Model Inspection Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldenProcessor.cpp">
+      <Filter>Inspection Codes\Model Inspection Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="InspectionParametersSettingsDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="SpLayerInspectionAlgo.cpp">
+      <Filter>Inspection Codes\Inspection Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldenManager.cpp">
+      <Filter>Inspection Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationSettingsReader.cpp">
+      <Filter>Configuration Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerInspectionAlgo.cpp">
+      <Filter>Inspection Codes\Inspection Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="GPUProvider.cpp">
+      <Filter>Inspection Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="InspectionParametersConfigReader.cpp">
+      <Filter>Configuration Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="MeasurementAlgo.cpp">
+      <Filter>Inspection Codes\Inspection Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog Expander\DialogExpander.cpp">
+      <Filter>Custom Controls\Dialog Expander</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitScreenDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UserLoginDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageSourceSelectionDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageSourceDialog.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CGridListCtrlEx\CHeaderCtrlExt.cpp">
+      <Filter>Custom Controls\CGridListCtrlEx\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraRejectsViewer.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DefectsPreviewer.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultStatsWindow.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RejectSheetsViewer.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageSourceSettingsReader.cpp">
+      <Filter>Configuration Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="Advantech.cpp">
+      <Filter>Machine Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartDataManager.cpp">
+      <Filter>ResultCollation&amp;Display</Filter>
+    </ClCompile>
+    <ClCompile Include="DocumentResultCollator.cpp">
+      <Filter>ResultCollation&amp;Display</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineCommunicator.cpp">
+      <Filter>Machine Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Numeric Edit\NumericEdit.cpp">
+      <Filter>Custom Controls\Numeric Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleTreeCtrl.cpp">
+      <Filter>Custom Controls\Simple Tree Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="SymbolEdit\SymbolEdit.cpp">
+      <Filter>Custom Controls\Symbol Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendedTrainingData.cpp">
+      <Filter>Inspection Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="UIThread.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GrabFromCamera.cpp">
+      <Filter>Image Acquistion</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraConfigReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SiSoImageAcquisition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImagePreprocessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GPUProviderSingleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DigitalIOSettingsReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerBuildingAssistThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerProcessingAssistThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CurrencyInspectionSystem.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\CurrencyInspectionSystem.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="svn_version.h.tmpl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Configuration Files\Inspection Parameters\InspectionParameterConfig.ini">
+      <Filter>Configuration Files\Inspection Parameters</Filter>
+    </None>
+    <None Include="Configuration Files\Application Settings.ini">
+      <Filter>Configuration Files</Filter>
+    </None>
+    <None Include="Configuration Files\Inspection Parameters\Level1_Gain.tup">
+      <Filter>Configuration Files\Inspection Parameters</Filter>
+    </None>
+    <None Include="Configuration Files\Inspection Parameters\Level1_Limit.tup">
+      <Filter>Configuration Files\Inspection Parameters</Filter>
+    </None>
+    <None Include="Configuration Files\Inspection Parameters\Level1_Tolerance.tup">
+      <Filter>Configuration Files\Inspection Parameters</Filter>
+    </None>
+    <None Include="Configuration Files\Inspection Parameters\Level2_Gain.tup">
+      <Filter>Configuration Files\Inspection Parameters</Filter>
+    </None>
+    <None Include="Configuration Files\Inspection Parameters\Level2_Limit.tup">
+      <Filter>Configuration Files\Inspection Parameters</Filter>
+    </None>
+    <None Include="Configuration Files\Inspection Parameters\Level2_Tolerance.tup">
+      <Filter>Configuration Files\Inspection Parameters</Filter>
+    </None>
+    <None Include="Configuration Files\Inspection Parameters\Level3_Gain.tup">
+      <Filter>Configuration Files\Inspection Parameters</Filter>
+    </None>
+    <None Include="Configuration Files\Inspection Parameters\Level3_Limit.tup">
+      <Filter>Configuration Files\Inspection Parameters</Filter>
+    </None>
+    <None Include="Configuration Files\Inspection Parameters\Level3_Tolerance.tup">
+      <Filter>Configuration Files\Inspection Parameters</Filter>
+    </None>
+    <None Include="Configuration Files\Inspection Parameters\Level4_Gain.tup">
+      <Filter>Configuration Files\Inspection Parameters</Filter>
+    </None>
+    <None Include="Configuration Files\Inspection Parameters\Level4_Limit.tup">
+      <Filter>Configuration Files\Inspection Parameters</Filter>
+    </None>
+    <None Include="Configuration Files\Inspection Parameters\Level4_Tolerance.tup">
+      <Filter>Configuration Files\Inspection Parameters</Filter>
+    </None>
+    <None Include="Configuration Files\Inspection Parameters\Level5_Gain.tup">
+      <Filter>Configuration Files\Inspection Parameters</Filter>
+    </None>
+    <None Include="Configuration Files\Inspection Parameters\Level5_Limit.tup">
+      <Filter>Configuration Files\Inspection Parameters</Filter>
+    </None>
+    <None Include="Configuration Files\Inspection Parameters\Level5_Tolerance.tup">
+      <Filter>Configuration Files\Inspection Parameters</Filter>
+    </None>
+    <None Include="Configuration Files\Inspection Parameters\Level6_Gain.tup">
+      <Filter>Configuration Files\Inspection Parameters</Filter>
+    </None>
+    <None Include="Configuration Files\Inspection Parameters\Level6_Limit.tup">
+      <Filter>Configuration Files\Inspection Parameters</Filter>
+    </None>
+    <None Include="Configuration Files\Inspection Parameters\Level6_Tolerance.tup">
+      <Filter>Configuration Files\Inspection Parameters</Filter>
+    </None>
+    <None Include="Configuration Files\Inspection Parameters\Level7_Gain.tup">
+      <Filter>Configuration Files\Inspection Parameters</Filter>
+    </None>
+    <None Include="Configuration Files\Inspection Parameters\Level7_Limit.tup">
+      <Filter>Configuration Files\Inspection Parameters</Filter>
+    </None>
+    <None Include="Configuration Files\Inspection Parameters\Level7_Tolerance.tup">
+      <Filter>Configuration Files\Inspection Parameters</Filter>
+    </None>
+    <None Include="Configuration Files\Image Source Settings.ini">
+      <Filter>Configuration Files</Filter>
+    </None>
+    <None Include="Configuration Files\Log.config">
+      <Filter>Configuration Files</Filter>
+    </None>
+    <None Include="Configuration Files\Camera Config.ini">
+      <Filter>Configuration Files</Filter>
+    </None>
+    <None Include="Configuration Files\DigitalIOSettings.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\CurrencyInspectionSystem.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\1457440712_Info.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\1457440739_exit.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\1457440743_Login Manager.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\1457440799_Previous.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\1457440809_Next.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\1457443074_Check.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\1457443080_Delete.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\1457532124_add.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\1457532148_delete.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\1457532364_add.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\1457532356_delete.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\1457534064_add.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\1457534071_delete.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\1457534064_add.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\1457534071_delete.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intensity.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\A.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\B.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Edge.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Title.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Admin\Desktop\New folder\Oxygen-Icons.org-Oxygen-Actions-document-close.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Admin\Desktop\New folder\Oxygen-Icons.org-Oxygen-Actions-document-edit.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Admin\Desktop\New folder\Oxygen-Icons.org-Oxygen-Actions-document-new.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Test.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Admin\Desktop\temp\blank-document.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Admin\Desktop\temp\delete-file-interface-symbol.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Admin\Desktop\temp\image.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Admin\Desktop\temp\log-out.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Admin\Desktop\temp\new-file.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Admin\Desktop\temp\notepad.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Admin\Desktop\temp\parameters.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Admin\Desktop\temp\video-camera.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Admin\Desktop\temp\play.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Admin\Desktop\temp\stop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Admin\Desktop\temp\enter.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Admin\Desktop\temp\exit(1).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\New Golden.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Delete Golden.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Image Source.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Edit Golden.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Shift Reports.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Parameters.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Calibration.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Online.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Offline.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Start Shift.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\End Shift.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\indian icon copy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Rep_Ins_Green.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Rep_Mask_Red.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Rep_Statistics_Yellow.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Uni_Ins_Green.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Uni_Mask_Red.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\1464808887_circle_green.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\1464808893_circle_red.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Green circle.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Green square.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Red circle.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Red square.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Yellow circle.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Red square.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Green Circle.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Green square.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Red Circle.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Yellow Circle.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\32inidanicon.png.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\new icon design copy.png.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\delete layer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\1464884640_Next.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\1464885251_right_16.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ICON_Previous.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ColorMap.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Audit Log.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\RIV.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Blue Rep Region.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Green Rep Region.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Red Rep Region - Copy.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Brush.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Eracer.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Free Draw.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Rectangle.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Delete Reg.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Delete Region Button.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LucidLogo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Komori.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Trained.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Untrained.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\anchor-32.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Blob Parameters Group 1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Blob Parameters Group 2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Blob Parameters Group 3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\plus.png.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Add TS.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Master_Trail4.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Master_TS.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Measurement .ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\One_Star.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Remove TS.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Remove_Trail4.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Remove_TS.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SelectMaster.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sheet_Anchor.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sheet_Mask.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sheet_Reg.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sheet_Region.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Statistics_Reg.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Thread.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Three.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Three_Star.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Training_Set.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Two_Star.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Up_Anchor.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Up_Mask.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Up_Reg.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Up_Region.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Gray square.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Partially Trained.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\TEMP1\1457440712_Info_light.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Admin\Downloads\One_Star.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\chrome_gold.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\One-Star.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Three-Star.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Two-Star.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Password.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\1.User name.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\2.Password.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Add_Selected_Defect.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Add_Selected_Defect(2).ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon6.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Add_Selected_Defect(3).ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Add_Selected_Defect(4).ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Add_Selected_Defect(5).ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Add_All_Defects.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Remove_Selected_Defect.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Start Capturing TS.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Stop Capturing TS.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Clear List.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Update List.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Claer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Preview.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Preview_Extension.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Save_Trail4.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
